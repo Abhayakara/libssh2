@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC3E9211F106BB30009B9C6 /* agent.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E90B1F106BB30009B9C6 /* agent.c */; };
+		DFC3E9221F106BB30009B9C6 /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E90C1F106BB30009B9C6 /* channel.c */; };
+		DFC3E9231F106BB30009B9C6 /* comp.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E90D1F106BB30009B9C6 /* comp.c */; };
+		DFC3E9241F106BB30009B9C6 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E90E1F106BB30009B9C6 /* crypt.c */; };
+		DFC3E9251F106BB30009B9C6 /* global.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E90F1F106BB30009B9C6 /* global.c */; };
+		DFC3E9261F106BB30009B9C6 /* hostkey.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9101F106BB30009B9C6 /* hostkey.c */; };
+		DFC3E9271F106BB30009B9C6 /* keepalive.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9111F106BB30009B9C6 /* keepalive.c */; };
+		DFC3E9281F106BB30009B9C6 /* kex.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9121F106BB30009B9C6 /* kex.c */; };
+		DFC3E9291F106BB30009B9C6 /* knownhost.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9131F106BB30009B9C6 /* knownhost.c */; };
+		DFC3E92A1F106BB30009B9C6 /* libgcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9141F106BB30009B9C6 /* libgcrypt.c */; };
+		DFC3E92B1F106BB30009B9C6 /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9151F106BB30009B9C6 /* mac.c */; };
+		DFC3E92C1F106BB30009B9C6 /* mbedtls.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9161F106BB30009B9C6 /* mbedtls.c */; };
+		DFC3E92D1F106BB30009B9C6 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9171F106BB30009B9C6 /* misc.c */; };
+		DFC3E92E1F106BB30009B9C6 /* packet.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9181F106BB30009B9C6 /* packet.c */; };
+		DFC3E92F1F106BB30009B9C6 /* pem.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9191F106BB30009B9C6 /* pem.c */; };
+		DFC3E9301F106BB30009B9C6 /* publickey.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91A1F106BB30009B9C6 /* publickey.c */; };
+		DFC3E9311F106BB30009B9C6 /* scp.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91B1F106BB30009B9C6 /* scp.c */; };
+		DFC3E9321F106BB30009B9C6 /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91C1F106BB30009B9C6 /* session.c */; };
+		DFC3E9331F106BB30009B9C6 /* sftp.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91D1F106BB30009B9C6 /* sftp.c */; };
+		DFC3E9341F106BB30009B9C6 /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91E1F106BB30009B9C6 /* transport.c */; };
+		DFC3E9351F106BB30009B9C6 /* userauth.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E91F1F106BB30009B9C6 /* userauth.c */; };
+		DFC3E9361F106BB30009B9C6 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = DFC3E9201F106BB30009B9C6 /* version.c */; };
+		DFC3E93B1F106F170009B9C6 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3E9381F106F170009B9C6 /* libssh2_publickey.h */; };
+		DFC3E93C1F106F170009B9C6 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3E9391F106F170009B9C6 /* libssh2_sftp.h */; };
+		DFC3E93D1F106F170009B9C6 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC3E93A1F106F170009B9C6 /* libssh2.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFC3E9041F106AF30009B9C6 /* liblibssh2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibssh2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC3E90B1F106BB30009B9C6 /* agent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = agent.c; path = src/agent.c; sourceTree = "<group>"; };
+		DFC3E90C1F106BB30009B9C6 /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = channel.c; path = src/channel.c; sourceTree = "<group>"; };
+		DFC3E90D1F106BB30009B9C6 /* comp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = comp.c; path = src/comp.c; sourceTree = "<group>"; };
+		DFC3E90E1F106BB30009B9C6 /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crypt.c; path = src/crypt.c; sourceTree = "<group>"; };
+		DFC3E90F1F106BB30009B9C6 /* global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = global.c; path = src/global.c; sourceTree = "<group>"; };
+		DFC3E9101F106BB30009B9C6 /* hostkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hostkey.c; path = src/hostkey.c; sourceTree = "<group>"; };
+		DFC3E9111F106BB30009B9C6 /* keepalive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = keepalive.c; path = src/keepalive.c; sourceTree = "<group>"; };
+		DFC3E9121F106BB30009B9C6 /* kex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kex.c; path = src/kex.c; sourceTree = "<group>"; };
+		DFC3E9131F106BB30009B9C6 /* knownhost.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = knownhost.c; path = src/knownhost.c; sourceTree = "<group>"; };
+		DFC3E9141F106BB30009B9C6 /* libgcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libgcrypt.c; path = src/libgcrypt.c; sourceTree = "<group>"; };
+		DFC3E9151F106BB30009B9C6 /* mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mac.c; path = src/mac.c; sourceTree = "<group>"; };
+		DFC3E9161F106BB30009B9C6 /* mbedtls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mbedtls.c; path = src/mbedtls.c; sourceTree = "<group>"; };
+		DFC3E9171F106BB30009B9C6 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = src/misc.c; sourceTree = "<group>"; };
+		DFC3E9181F106BB30009B9C6 /* packet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = packet.c; path = src/packet.c; sourceTree = "<group>"; };
+		DFC3E9191F106BB30009B9C6 /* pem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pem.c; path = src/pem.c; sourceTree = "<group>"; };
+		DFC3E91A1F106BB30009B9C6 /* publickey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = publickey.c; path = src/publickey.c; sourceTree = "<group>"; };
+		DFC3E91B1F106BB30009B9C6 /* scp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = scp.c; path = src/scp.c; sourceTree = "<group>"; };
+		DFC3E91C1F106BB30009B9C6 /* session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = session.c; path = src/session.c; sourceTree = "<group>"; };
+		DFC3E91D1F106BB30009B9C6 /* sftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sftp.c; path = src/sftp.c; sourceTree = "<group>"; };
+		DFC3E91E1F106BB30009B9C6 /* transport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = transport.c; path = src/transport.c; sourceTree = "<group>"; };
+		DFC3E91F1F106BB30009B9C6 /* userauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = userauth.c; path = src/userauth.c; sourceTree = "<group>"; };
+		DFC3E9201F106BB30009B9C6 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = src/version.c; sourceTree = "<group>"; };
+		DFC3E9381F106F170009B9C6 /* libssh2_publickey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = include/libssh2_publickey.h; sourceTree = "<group>"; };
+		DFC3E9391F106F170009B9C6 /* libssh2_sftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = include/libssh2_sftp.h; sourceTree = "<group>"; };
+		DFC3E93A1F106F170009B9C6 /* libssh2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = include/libssh2.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC3E9011F106AF30009B9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC3E8FB1F106AF30009B9C6 = {
+			isa = PBXGroup;
+			children = (
+				DFC3E9381F106F170009B9C6 /* libssh2_publickey.h */,
+				DFC3E9391F106F170009B9C6 /* libssh2_sftp.h */,
+				DFC3E93A1F106F170009B9C6 /* libssh2.h */,
+				DFC3E90B1F106BB30009B9C6 /* agent.c */,
+				DFC3E90C1F106BB30009B9C6 /* channel.c */,
+				DFC3E90D1F106BB30009B9C6 /* comp.c */,
+				DFC3E90E1F106BB30009B9C6 /* crypt.c */,
+				DFC3E90F1F106BB30009B9C6 /* global.c */,
+				DFC3E9101F106BB30009B9C6 /* hostkey.c */,
+				DFC3E9111F106BB30009B9C6 /* keepalive.c */,
+				DFC3E9121F106BB30009B9C6 /* kex.c */,
+				DFC3E9131F106BB30009B9C6 /* knownhost.c */,
+				DFC3E9141F106BB30009B9C6 /* libgcrypt.c */,
+				DFC3E9151F106BB30009B9C6 /* mac.c */,
+				DFC3E9161F106BB30009B9C6 /* mbedtls.c */,
+				DFC3E9171F106BB30009B9C6 /* misc.c */,
+				DFC3E9181F106BB30009B9C6 /* packet.c */,
+				DFC3E9191F106BB30009B9C6 /* pem.c */,
+				DFC3E91A1F106BB30009B9C6 /* publickey.c */,
+				DFC3E91B1F106BB30009B9C6 /* scp.c */,
+				DFC3E91C1F106BB30009B9C6 /* session.c */,
+				DFC3E91D1F106BB30009B9C6 /* sftp.c */,
+				DFC3E91E1F106BB30009B9C6 /* transport.c */,
+				DFC3E91F1F106BB30009B9C6 /* userauth.c */,
+				DFC3E9201F106BB30009B9C6 /* version.c */,
+				DFC3E9051F106AF30009B9C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC3E9051F106AF30009B9C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC3E9041F106AF30009B9C6 /* liblibssh2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DFC3E9021F106AF30009B9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC3E93B1F106F170009B9C6 /* libssh2_publickey.h in Headers */,
+				DFC3E93C1F106F170009B9C6 /* libssh2_sftp.h in Headers */,
+				DFC3E93D1F106F170009B9C6 /* libssh2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DFC3E9031F106AF30009B9C6 /* libssh2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC3E9081F106AF30009B9C6 /* Build configuration list for PBXNativeTarget "libssh2" */;
+			buildPhases = (
+				DFC3E9001F106AF30009B9C6 /* Sources */,
+				DFC3E9011F106AF30009B9C6 /* Frameworks */,
+				DFC3E9021F106AF30009B9C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libssh2;
+			productName = libssh2;
+			productReference = DFC3E9041F106AF30009B9C6 /* liblibssh2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC3E8FC1F106AF30009B9C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ted Lemon";
+				TargetAttributes = {
+					DFC3E9031F106AF30009B9C6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q7DSZMCUN9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFC3E8FF1F106AF30009B9C6 /* Build configuration list for PBXProject "libssh2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFC3E8FB1F106AF30009B9C6;
+			productRefGroup = DFC3E9051F106AF30009B9C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC3E9031F106AF30009B9C6 /* libssh2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC3E9001F106AF30009B9C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC3E92D1F106BB30009B9C6 /* misc.c in Sources */,
+				DFC3E9351F106BB30009B9C6 /* userauth.c in Sources */,
+				DFC3E92B1F106BB30009B9C6 /* mac.c in Sources */,
+				DFC3E9271F106BB30009B9C6 /* keepalive.c in Sources */,
+				DFC3E9361F106BB30009B9C6 /* version.c in Sources */,
+				DFC3E9291F106BB30009B9C6 /* knownhost.c in Sources */,
+				DFC3E9331F106BB30009B9C6 /* sftp.c in Sources */,
+				DFC3E9301F106BB30009B9C6 /* publickey.c in Sources */,
+				DFC3E9211F106BB30009B9C6 /* agent.c in Sources */,
+				DFC3E9261F106BB30009B9C6 /* hostkey.c in Sources */,
+				DFC3E92F1F106BB30009B9C6 /* pem.c in Sources */,
+				DFC3E9341F106BB30009B9C6 /* transport.c in Sources */,
+				DFC3E9251F106BB30009B9C6 /* global.c in Sources */,
+				DFC3E9231F106BB30009B9C6 /* comp.c in Sources */,
+				DFC3E9321F106BB30009B9C6 /* session.c in Sources */,
+				DFC3E92A1F106BB30009B9C6 /* libgcrypt.c in Sources */,
+				DFC3E92E1F106BB30009B9C6 /* packet.c in Sources */,
+				DFC3E9241F106BB30009B9C6 /* crypt.c in Sources */,
+				DFC3E9311F106BB30009B9C6 /* scp.c in Sources */,
+				DFC3E92C1F106BB30009B9C6 /* mbedtls.c in Sources */,
+				DFC3E9281F106BB30009B9C6 /* kex.c in Sources */,
+				DFC3E9221F106BB30009B9C6 /* channel.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFC3E9061F106AF30009B9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DFC3E9071F106AF30009B9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DFC3E9091F106AF30009B9C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q7DSZMCUN9;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "<Multiple values> $(HOME)/libgcrypt/src $(HOME)/libgpg-error-1.27/src";
+			};
+			name = Debug;
+		};
+		DFC3E90A1F106AF30009B9C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q7DSZMCUN9;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = "<Multiple values> $(HOME)/libgcrypt/src $(HOME)/libgpg-error-1.27/src";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC3E8FF1F106AF30009B9C6 /* Build configuration list for PBXProject "libssh2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC3E9061F106AF30009B9C6 /* Debug */,
+				DFC3E9071F106AF30009B9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC3E9081F106AF30009B9C6 /* Build configuration list for PBXNativeTarget "libssh2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC3E9091F106AF30009B9C6 /* Debug */,
+				DFC3E90A1F106AF30009B9C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFC3E8FC1F106AF30009B9C6 /* Project object */;
+}

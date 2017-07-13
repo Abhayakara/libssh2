@@ -38,6 +38,10 @@
 #ifndef LIBSSH2_CRYPTO_H
 #define LIBSSH2_CRYPTO_H
 
+#ifdef LIBSSH2_IOS
+#include "ioscrypt.h"
+#endif
+
 #ifdef LIBSSH2_OPENSSL
 #include "openssl.h"
 #endif
