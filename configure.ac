@@ -93,6 +93,7 @@ found_crypto_str=""
 support_clear_memory=no
 crypto_errors=""
 
+m4_set_add([crypto_backends], [ioscrypt])
 m4_set_add([crypto_backends], [openssl])
 m4_set_add([crypto_backends], [libgcrypt])
 m4_set_add([crypto_backends], [mbedtls])

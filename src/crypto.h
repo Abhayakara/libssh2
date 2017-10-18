@@ -38,7 +38,7 @@
 #ifndef LIBSSH2_CRYPTO_H
 #define LIBSSH2_CRYPTO_H
 
-#ifdef LIBSSH2_IOS
+#ifdef LIBSSH2_IOSCRYPT
 #include "ioscrypt.h"
 #endif
 
